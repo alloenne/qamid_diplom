@@ -84,34 +84,62 @@
 ## Автоматизация
 Предполагается автоматизировать тесты, которые будут повторяться при регрессионном тестировани (например, навигация, расположение эелементов на странице, авторизация) и при этом не зависят от изменения базы данных (поэтому не автоматизируется тестиование сортировки и фильтрации новостей, т.к. новости постоянно сменяются).
 
-Предваритеьный список автоматизации тестов по id:
+Предварительный список автоматизации тестов по id:
+
 AUTH_visible
+
 AUTH_login_success
+
 AUTH_login_fail
+
 AUTH_empty
+
 MAIN_visible
+
 MAIN_expand_newsblock
+
 MAIN_expand_news
+
 MAIN_upd
+
 MAIN_allnews
+
 NAV_quotes
+
 NAV_logout
+
 NAV_about_mainpage
+
 NAV_about_news
+
 NAV_about_return
+
 NEWS_visible
+
 NEWS_expand
+
 NEWS_filter_cancel
+
 NEWSCONTROL_deletenews
+
 NEWSCONTROL_canceldelete
+
 NEWSCONTROL_canceledit
+
 NEWSCONTROL_editnews
+
 NEWSCONTROL_createnews
+
 NEWSCONTROL_create_with_empty_space
+
 QUOTES_visible
+
 QUOTES_expand
+
 ABOUT_visible
+
 ABOUT_pp
+
 ABOUT_tou
 
 
