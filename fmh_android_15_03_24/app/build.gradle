@@ -19,6 +19,7 @@ android {
         targetSdkVersion 32
         versionCode 14
         versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     compileOptions {
@@ -44,7 +45,13 @@ android {
             buildConfigField "String", "BASE_URL", '"https://students.netoservices.ru/qamid-diplom-backend/"'
         }
     }
+
+    buildscript {
+        ext.kotlin_version = '1.6.0'
+    }
 }
+
+
 
 dependencies {
     def retrofit_version = "2.9.0"
@@ -91,4 +98,21 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
+
+    implementation "androidx.tracing:tracing:1.1.0"
+
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-accessibility:3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-web:3.4.0"
+    androidTestImplementation "androidx.test.espresso.idling:idling-concurrent:3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-idling-resource:3.4.0"
+
+    androidTestImplementation "junit:junit:4.13.2"
+
+    androidTestImplementation 'androidx.test:rules:1.6.0-rc01'
+    androidTestImplementation "androidx.test:runner:1.5.2"
+    androidTestImplementation 'androidx.test.ext:junit:1.2.0-rc01'
+    implementation "joda-time:joda-time:2.12.1"
 }
