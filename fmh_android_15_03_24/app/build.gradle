@@ -101,8 +101,8 @@ dependencies {
 
     implementation "androidx.tracing:tracing:1.1.0"
 
-    androidTestImplementation "androidx.test.espresso:espresso-core:3.4.0"
-    androidTestImplementation "androidx.test.espresso:espresso-contrib:3.4.0"
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.6.0'
     androidTestImplementation "androidx.test.espresso:espresso-intents:3.4.0"
     androidTestImplementation "androidx.test.espresso:espresso-accessibility:3.4.0"
     androidTestImplementation "androidx.test.espresso:espresso-web:3.4.0"
@@ -111,8 +111,8 @@ dependencies {
 
     androidTestImplementation "junit:junit:4.13.2"
 
-    androidTestImplementation 'androidx.test:rules:1.6.0-rc01'
+    androidTestImplementation 'androidx.test:rules:1.6.0'
     androidTestImplementation "androidx.test:runner:1.5.2"
-    androidTestImplementation 'androidx.test.ext:junit:1.2.0-rc01'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.0'
     implementation "joda-time:joda-time:2.12.1"
 }
