@@ -4,6 +4,7 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static org.hamcrest.Matchers.not;
 import static ru.iteco.fmhandroid.ui.data.DataHelper.waitingElement;
 
 import io.qameta.allure.kotlin.Allure;
@@ -31,6 +32,16 @@ public class MainPageSteps {
         Allure.step("Открыть раздел новости из меню");
         mainPage.menuButton.perform(click());
         mainPage.newsInMenu.perform(click());
+    }
+
+    public void collapseAllNews() {
+        Allure.step("Развернуть блок всех новостей на главной странице");
+        mainPage.collapseAllNewsButton.perform(click());
+    }
+
+    public void checkAllNewsBlockIsExpand() {
+        Allure.step("Блок всех новостей свернут");
+        mainPage.allNewsBlock.check(matches(not(isDisplayed())));
     }
 
     public void openAboutPage() {

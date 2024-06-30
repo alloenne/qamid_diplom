@@ -10,6 +10,8 @@ import static org.hamcrest.Matchers.allOf;
 import androidx.test.espresso.ViewInteraction;
 
 import ru.iteco.fmhandroid.R;
+import ru.iteco.fmhandroid.ui.data.DataHelper;
+
 public class AuthPageElement {
     public ViewInteraction title = onView(withText("Authorization"));
     public ViewInteraction login =
@@ -19,4 +21,6 @@ public class AuthPageElement {
             onView(allOf(withHint("Password"),
                     withParent(withParent(withId(R.id.password_text_input_layout)))));
     public ViewInteraction loginButton = onView(withId(R.id.enter_button));
+
+
 }

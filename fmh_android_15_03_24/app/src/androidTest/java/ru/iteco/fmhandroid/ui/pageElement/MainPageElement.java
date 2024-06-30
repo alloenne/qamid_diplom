@@ -18,6 +18,8 @@ public class MainPageElement {
     public ViewInteraction titleNews = onView(withText("News"));
     public ViewInteraction allNewsButton = onView(withId(R.id.all_news_text_view));
     public ViewInteraction collapseAllNewsButton = onView(withId(R.id.expand_material_button));
+    public ViewInteraction allNewsBlock = onView(withId(R.id.all_news_cards_block_constraint_layout));
+
 
 
 }

@@ -11,6 +11,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.not;
 import static ru.iteco.fmhandroid.ui.data.DataHelper.waitingElement;
 
+
 import android.view.View;
 
 import org.hamcrest.Matchers;
@@ -61,12 +62,12 @@ public class AuthSteps {
         authPage.loginButton.perform(click());
     }
 
-//    public void checkToastMessage(String text, View decorView) {
-//        Allure.step("Проверка всплывающего сообщения с ошибкой");
-//        onView(withText(text))
-//                .inRoot(withDecorView(not(decorView)))
-//                .check(matches(isDisplayed()));
-//    }
+    public void checkToastMessage(String text) {
+        Allure.step("Проверка всплывающего сообщения с ошибкой");
+        onView(withText(text))
+                .inRoot(new DataHelper.ToastMatcher())
+                .check(matches(isDisplayed()));
+    }
 
     public void checkAuthIsOpen() {
         Allure.step("Проверка, что страница авторизации открыта");

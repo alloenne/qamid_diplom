@@ -27,7 +27,7 @@ public class AuthTests {
     @Rule
     public ActivityScenarioRule<AppActivity> activityScenarioRule =
             new ActivityScenarioRule<>(AppActivity.class);
-    private View decorView;
+
 
     AuthSteps authSteps = new AuthSteps();
     MainPageSteps mainSteps = new MainPageSteps();
@@ -44,12 +44,7 @@ public class AuthTests {
             authSteps.loadAuthPage();
         }
 
-//        activityScenarioRule.getScenario().onActivity(new ActivityScenario.ActivityAction<AppActivity>() {
-//            @Override
-//            public void perform(AppActivity activity) {
-//                decorView = activity.getWindow().getDecorView();
-//            }
-//        });
+
     }
 
     @After
@@ -80,7 +75,7 @@ public class AuthTests {
     @Description(value = "Тестирование авторизации с неверными данными")
     public void shouldLoginWithInvalidUser() {
         authSteps.loginWithInValidUser();
-//        authSteps.checkToastMessage("Somethihg went wrong. Try again later.", decorView);
+        authSteps.checkToastMessage("Something went wrong. Try again later.");
         authSteps.checkAuthIsOpen();
 
     }
@@ -89,7 +84,7 @@ public class AuthTests {
     @Description(value = "Тестирование авторизации с пустыми данными")
     public void shouldLoginWithEmptyFields() {
         authSteps.loginWithEmptyFields();
-//        authSteps.checkToastMessage("Login and password connot be empty", decorView);
+        authSteps.checkToastMessage("Login and password cannot be empty");
         authSteps.checkAuthIsOpen();
     }
 
