@@ -1,0 +1,117 @@
+{
+    "name": "shouldQuotesElementsIsVisible",
+    "start": 1719329929926,
+    "stop": 1719329941100,
+    "stage": "finished",
+    "description": "Тестирование видимости всех элементов страницы Цитаты",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719329930970,
+            "stop": 1719329930970,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть раздела \"Цитаты\"",
+            "start": 1719329937767,
+            "stop": 1719329937767,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы",
+            "start": 1719329938260,
+            "stop": 1719329938260,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Наличие на странице цитат всех предполагаемых элементов",
+            "start": 1719329940496,
+            "stop": 1719329940496,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "6df31091-97ad-4fa0-9798-e8bdc10168f4",
+    "historyId": "fd669e777c006d5434d7c505c5982e52",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.QuotesTests.shouldQuotesElementsIsVisible",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.QuotesTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldQuotesElementsIsVisible"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.QuotesTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(2043)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

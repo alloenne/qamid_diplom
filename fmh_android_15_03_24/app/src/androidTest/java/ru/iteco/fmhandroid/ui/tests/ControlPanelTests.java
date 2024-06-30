@@ -1,7 +1,7 @@
 package ru.iteco.fmhandroid.ui.tests;
 
 
-import android.view.View;
+
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 
@@ -16,7 +16,7 @@ import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.Description;
 import ru.iteco.fmhandroid.ui.AppActivity;
 import ru.iteco.fmhandroid.ui.data.DataHelper;
-import ru.iteco.fmhandroid.ui.steps.AboutSteps;
+
 import ru.iteco.fmhandroid.ui.steps.AuthSteps;
 import ru.iteco.fmhandroid.ui.steps.ControlPanelSteps;
 import ru.iteco.fmhandroid.ui.steps.CreateNewsSteps;
@@ -24,7 +24,7 @@ import ru.iteco.fmhandroid.ui.steps.EditNewsSteps;
 import ru.iteco.fmhandroid.ui.steps.FilterNewsSteps;
 import ru.iteco.fmhandroid.ui.steps.MainPageSteps;
 import ru.iteco.fmhandroid.ui.steps.NewsSteps;
-import ru.iteco.fmhandroid.ui.steps.QuotesSteps;
+
 
 @RunWith(AllureAndroidJUnit4.class)
 

@@ -1,0 +1,149 @@
+{
+    "name": "shouldAuthElementsIsVisible",
+    "start": 1719762313441,
+    "stop": 1719762353741,
+    "stage": "finished",
+    "description": "Тестирование видимости всех элементов страницы авторизации",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы авторизации",
+            "start": 1719762313653,
+            "stop": 1719762313653,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы",
+            "start": 1719762330619,
+            "stop": 1719762330619,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выход из профиля",
+            "start": 1719762333461,
+            "stop": 1719762333461,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы авторизации",
+            "start": 1719762334485,
+            "stop": 1719762334485,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка видимости всех элементов страницы авторизации",
+            "start": 1719762337122,
+            "stop": 1719762337122,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы",
+            "start": 1719762338447,
+            "stop": 1719762338447,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "5145468d-a1ee-446b-9c5d-257d17f65bea",
+    "historyId": "a7915e60e1a887f6127ce4b761e75bd5",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AuthTests.shouldAuthElementsIsVisible",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldAuthElementsIsVisible"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(2003)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

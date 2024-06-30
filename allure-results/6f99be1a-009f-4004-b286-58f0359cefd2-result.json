@@ -1,0 +1,117 @@
+{
+    "name": "shouldOpenControlPanelFromNews",
+    "start": 1719761328401,
+    "stop": 1719761341604,
+    "stage": "finished",
+    "description": "Тестирование перехода в раздел редактирования новостей со страницы Новости",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719761328698,
+            "stop": 1719761328698,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть раздел новости из меню",
+            "start": 1719761334059,
+            "stop": 1719761334059,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы новостей",
+            "start": 1719761335223,
+            "stop": 1719761335223,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть страницу управления новостями",
+            "start": 1719761338367,
+            "stop": 1719761338367,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "6f99be1a-009f-4004-b286-58f0359cefd2",
+    "historyId": "7a4fe898a61f1ac4f3dd7c4fc59b8fae",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NavigationTests.shouldOpenControlPanelFromNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NavigationTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldOpenControlPanelFromNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NavigationTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1818)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

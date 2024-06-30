@@ -1,0 +1,133 @@
+{
+    "name": "shouldLoginWithInvalidUser",
+    "start": 1719521577034,
+    "stop": 1719521597953,
+    "stage": "finished",
+    "description": "Тестирование авторизации с неверными данными",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы авторизации",
+            "start": 1719521578205,
+            "stop": 1719521578205,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Вход с неверными данными",
+            "start": 1719521584470,
+            "stop": 1719521584470,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка всплывающего сообщения с ошибкой",
+            "start": 1719521587229,
+            "stop": 1719521587229,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что страница авторизации открыта",
+            "start": 1719521587232,
+            "stop": 1719521587233,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы",
+            "start": 1719521587234,
+            "stop": 1719521587234,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "0479cbfd-0d74-45bc-8ce1-3b54005a38f7",
+    "historyId": "9ac8b0e37247abc4016b12d79e6e9d97",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AuthTests.shouldLoginWithInvalidUser",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldLoginWithInvalidUser"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1513)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

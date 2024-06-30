@@ -1,0 +1,117 @@
+{
+    "name": "shouldAboutElementsIsVisible",
+    "start": 1719760905900,
+    "stop": 1719760918061,
+    "stage": "finished",
+    "description": "Тестирование видимости всех элементов страницы About",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719760906577,
+            "stop": 1719760906577,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть раздел About из меню",
+            "start": 1719760912713,
+            "stop": 1719760912714,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Загрузка страницы About",
+            "start": 1719760913471,
+            "stop": 1719760913471,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Наличие на странице  \"About\" всех предполагаемых элементов",
+            "start": 1719760915609,
+            "stop": 1719760915609,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "978ca624-9331-47cf-af47-d36d216aa3cf",
+    "historyId": "e58a5129b03c6446e57cd333d0c69c2f",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AboutTests.shouldAboutElementsIsVisible",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldAboutElementsIsVisible"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1818)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "shouldMainElementsIsVisible",
+    "start": 1719321990328,
+    "stop": 1719322001790,
+    "stage": "finished",
+    "description": "Тестирование видимости всех элементов главной страницы",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719321991611,
+            "stop": 1719321991611,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Наличие на главной странице всех предполагаемых элементов",
+            "start": 1719322001056,
+            "stop": 1719322001056,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "11233a6d-ed42-4b88-a952-9d34a7bed37a",
+    "historyId": "71131a6382843c277d96a5674476a494",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.MainTests.shouldMainElementsIsVisible",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldMainElementsIsVisible"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1343)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

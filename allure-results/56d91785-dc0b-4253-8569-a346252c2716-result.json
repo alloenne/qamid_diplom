@@ -1,0 +1,101 @@
+{
+    "name": "shouldExpandAllNews",
+    "start": 1719322263173,
+    "stop": 1719322271361,
+    "stage": "finished",
+    "description": "Тестирование разворачивания блока всех новостей",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719322264092,
+            "stop": 1719322264092,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Развернуть блок всех новостей на главной странице",
+            "start": 1719322270536,
+            "stop": 1719322270536,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Блок всех новостей свернут",
+            "start": 1719322270879,
+            "stop": 1719322270879,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "56d91785-dc0b-4253-8569-a346252c2716",
+    "historyId": "bc4fc817a46de12a14ea56cb181f9080",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.MainTests.shouldExpandAllNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldExpandAllNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1513)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -200,6 +200,11 @@ public class DataHelper {
     public static class ToastMatcher extends TypeSafeMatcher<Root> {
 
         @Override
+        public void describeTo(Description description) {
+            description.appendText("is toast");
+        }
+
+        @Override
         public boolean matchesSafely(Root root) {
             int type = root.getWindowLayoutParams().get().type;
             if ((type == WindowManager.LayoutParams.TYPE_TOAST)) {
@@ -213,10 +218,6 @@ public class DataHelper {
             return false;
         }
 
-        @Override
-        public void describeTo(Description description) {
-            description.appendText("is toast");
-        }
     }
 
 

@@ -1,0 +1,104 @@
+{
+    "name": "shouldExpandAllNews",
+    "start": 1719322011395,
+    "stop": 1719322021746,
+    "stage": "finished",
+    "description": "Тестирование разворачивания блока всех новостей",
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "message": "'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\n     Got: view.getVisibility() was <GONE>\nView Details: ConstraintLayout{id=2131230831, res-name=all_news_cards_block_constraint_layout, visibility=GONE, width=998, height=627, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@e952824, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=383.0, child-count=5}\n",
+        "trace": "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\n     Got: view.getVisibility() was <GONE>\nView Details: ConstraintLayout{id=2131230831, res-name=all_news_cards_block_constraint_layout, visibility=GONE, width=998, height=627, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@e952824, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=383.0, child-count=5}\n\n\tat dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tat java.lang.Thread.getStackTrace(Thread.java:1720)\n\tat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\n\tat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\n\tat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\n\tat ru.iteco.fmhandroid.ui.steps.MainPageSteps.checkAllNewsBlockIsExpand(MainPageSteps.java:43)\n\tat ru.iteco.fmhandroid.ui.tests.MainTests.shouldExpandAllNews(MainTests.java:61)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)\n\tat io.qameta.allure.android.runners.AllureAndroidJUnit4.run(AllureAndroidJUnitRunners.kt:29)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2189)\nCaused by: junit.framework.AssertionFailedError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\n     Got: view.getVisibility() was <GONE>\nView Details: ConstraintLayout{id=2131230831, res-name=all_news_cards_block_constraint_layout, visibility=GONE, width=998, height=627, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@e952824, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=383.0, child-count=5}\n\n\tat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\n\tat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\n\tat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\n\tat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\n\tat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.os.Handler.handleCallback(Handler.java:883)\n\tat android.os.Handler.dispatchMessage(Handler.java:100)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+    },
+    "steps": [
+        {
+            "name": "Загрузка страницы",
+            "start": 1719322012413,
+            "stop": 1719322012414,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Развернуть блок всех новостей на главной странице",
+            "start": 1719322020885,
+            "stop": 1719322020885,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Развернуть блок всех новостей на главной странице",
+            "start": 1719322021201,
+            "stop": 1719322021201,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "802b1173-4375-4fd8-8526-b54d6b749d3d",
+    "historyId": "bc4fc817a46de12a14ea56cb181f9080",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.MainTests.shouldExpandAllNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "shouldExpandAllNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.MainTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1361)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

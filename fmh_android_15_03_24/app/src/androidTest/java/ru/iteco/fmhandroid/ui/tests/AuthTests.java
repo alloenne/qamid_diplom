@@ -33,6 +33,7 @@ public class AuthTests {
     MainPageSteps mainSteps = new MainPageSteps();
 
 
+
     @Before
     public void setUp() {
         try {
@@ -43,8 +44,6 @@ public class AuthTests {
             mainSteps.logOut();
             authSteps.loadAuthPage();
         }
-
-
     }
 
     @After

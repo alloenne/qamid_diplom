@@ -10,6 +10,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
 import static ru.iteco.fmhandroid.ui.data.DataHelper.waitingElement;
+import static ru.iteco.fmhandroid.ui.data.DataHelper.withIndex;
 
 import io.qameta.allure.kotlin.Allure;
 import ru.iteco.fmhandroid.R;
@@ -37,11 +38,10 @@ public class QuotesSteps {
         quotesPage.missionConstraintLayout.perform(actionOnItemAtPosition(number, click()));
     }
 
-    public void displayFullQuotes(String text) {
+    public void displayFullQuotes(int number) {
         Allure.step("Отображение цитаты полностью");
         onView(allOf(
-                withId(R.id.our_mission_item_description_text_view),
-                withText(text)))
+                withIndex(withId(R.id.our_mission_item_description_text_view), number)))
                 .check(matches(isDisplayed()));
     }
 

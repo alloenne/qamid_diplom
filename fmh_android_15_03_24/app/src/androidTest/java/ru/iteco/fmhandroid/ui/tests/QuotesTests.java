@@ -59,9 +59,8 @@ public class QuotesTests {
     @Test
     @Description(value = "Тестирование разворачивания отдельной цитаты")
     public void shouldOneQuoteExpand() {
-        String firstQuotesText = "\"Ну, идеальное устройство мира в моих глазах. Где никто не оценивает, никто не осудит, где говоришь, и тебя слышат, где, если страшно, тебя обнимут и возьмут за руку, а если холодно тебя согреют.” Юля Капис, волонтер";
         quotesSteps.checkQuote(0);
-        quotesSteps.displayFullQuotes(firstQuotesText);
+        quotesSteps.displayFullQuotes(0);
     }
 
 
